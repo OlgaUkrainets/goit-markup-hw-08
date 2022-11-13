@@ -1,0 +1,34 @@
+
+
+.menu-mobile {
+display: flex;
+flex-direction: column;
+padding: 48px 40px;
+position: absolute;
+top: 0px;
+width: 480px;
+height: 796px;
+background-color: $mainLightColor;
+
+}
+
+.menu-mobile__nav
+.menu-mobile__item {
+    display: block;
+   
+}
+
+.menu-mobile__link{
+display: block;
+margin-bottom: 32px;
+color: $titleTextColor;
+font-size: 40px;
+font-weight: 500;
+line-height: 1.175px;
+letter-spacing: 0.02em;
+
+}
+
+// .menu-mobile__nav:not(:last-child) {
+//     margin-bottom: 32px;
+//   }

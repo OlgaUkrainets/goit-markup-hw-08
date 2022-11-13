@@ -1,0 +1,52 @@
+
+  // .sub {
+  //   display: flex;
+  //   margin-left: auto;
+  //   align-items: flex-end;
+  //   gap: 12px;
+  // }
+  
+  .sub__title {
+    margin: 0px;
+    margin-bottom: 20px;
+    color: $mainLightColor;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  
+  .sub__form {
+    position: relative;
+    margin-bottom: 20px;
+    
+  }
+  
+  .sub__email {
+    padding: 15px 2px 15px 16px;
+    width: 450px;
+    height: 50px;
+    color: $mainLightColor;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: $mainDarkColor;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .sub__btn {
+    @extend %button;
+    position: relative;
+    padding: 10px 28px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    gap: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  

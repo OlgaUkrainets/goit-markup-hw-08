@@ -1,0 +1,23 @@
+%button {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid $accentColor;
+    background-color: $accentColor;
+    color: $mainLightColor;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.89;
+    text-align: Center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      background-color: $secondaryAccentColor;
+      cursor: pointer;
+    }
+  }
+  
