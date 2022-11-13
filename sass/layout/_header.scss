@@ -14,20 +14,29 @@
     display: none;
   }
 
-  .head-mobile-button {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background-color: transparent;
-  }
+  .menu-toggle {
+    min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  .head-mobile-button .icon-cross { 
-    display: none;
-  } 
-  .head-mobile-button.is-open .icon-cross {
-    display: block;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
 
-  .head-mobile-button.is-open .icon-menu {
-    display: none;
-  }
+  // .head-mobile-button .icon-cross { 
+  //   display: none;
+  // } 
+  // .menu-toggle.is-open .icon-cross {
+  //   display: block;
+  // }
+
+  // .head-mobile-button.is-open .icon-menu {
+  //   display: none;
+  // }
