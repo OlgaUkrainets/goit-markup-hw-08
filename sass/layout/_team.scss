@@ -20,6 +20,7 @@
       .team {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
   }
   
   .team .team__unit + .team__unit {
