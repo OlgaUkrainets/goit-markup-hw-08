@@ -4,13 +4,28 @@
     line-height: 1.18;
   }
 
-  // .team {
-  //   display: flex;
-  // }
+  @media screen and (min-width: 768px) {
+           .team {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 30px;
+           }
+           }
+
+
   
-  // .team .team__unit + .team__unit {
-  //   margin-left: 30px;
-  // }
+
+  @media screen and (min-width: 1200px) {
+      .team {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .team .team__unit + .team__unit {
+    margin-left: 30px;
+  }
+  }
   
   .team__descr {
     padding: 30px;
@@ -37,6 +52,14 @@
     width: 450px;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14),
       0 1px 3px rgba(0, 0, 0, 0.12);
+     
+      @media screen and (min-width: 768px){
+        width: 354px;
+      }
+      @media screen and (min-width: 1200px){
+        width: 270px;
+      }
+     
   }
   
  
