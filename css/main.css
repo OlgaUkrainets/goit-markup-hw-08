@@ -24,7 +24,6 @@ body {
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
-  overflow: hidden;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -102,7 +101,6 @@ img {
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
-  overflow: hidden;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1607,7 +1605,6 @@ img {
 
 .team__box {
   background-color: #ffffff;
-  min-width: 280px;
   max-width: 450px;
   -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
