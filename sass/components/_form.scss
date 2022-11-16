@@ -86,10 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-font-size: 12px;
-left: 1.1667;
-
+    font-size: 6px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     gap: 8px;
@@ -107,7 +104,7 @@ left: 1.1667;
     &::after {
       content: "";
       position: absolute;
-      top: 4px;
+      top: 2px;
       left: 0;
       height: 16px;
       width: 16px;
@@ -123,6 +120,10 @@ left: 1.1667;
     &:focus-within::before {
       border: 2px solid $accentColor;
       border-radius: 3px;
+    }
+
+    @media screen and (min-width: 440px) {
+      font-size: 12px;  
     }
   }
   
