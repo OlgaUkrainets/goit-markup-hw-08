@@ -24,9 +24,10 @@
           <a class="logo list" href="./index.html"
             >Web<span class="dark-logo">Studio</span></a
           >
-          <button class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
           >
             <svg width="40" height="40">
               <use href="./images/sprite.svg#icon-menu-mobile"></use>
@@ -476,71 +477,79 @@
       <div class="container">
         <div class="footer__box">
           <div class="footer__adress">
-          <div class="footer__adress-box">
-            <div class="bottom-logo">
-              <a href="" class="logo list"
-                >Web<span class="light-logo">Studio</span></a
-              >
+            <div class="footer__adress-box">
+              <div class="bottom-logo">
+                <a href="" class="logo list"
+                  >Web<span class="light-logo">Studio</span></a
+                >
+              </div>
+              <address>
+                <ul class="footer__contact list">
+                  <li>
+                    <a
+                      href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      class="footer__map"
+                      >м. Київ, пр-т Лесі Українки, 26</a
+                    >
+                  </li>
+                  <li>
+                    <a href="mailto:info@devstudio.com" class="footer__link"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:+380961111111" class="footer__link"
+                      >"+38 096 111 11 11"</a
+                    >
+                  </li>
+                </ul>
+              </address>
             </div>
-            <address>
-              <ul class="footer__contact list">
-                <li>
+            <div class="footer-nets">
+              <p class="footer-nets__title">Приєднуйтесь</p>
+              <ul class="footer-nets__icons list">
+                <li class="footer-nets__item">
                   <a
-                    href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    class="footer__map"
-                    >м. Київ, пр-т Лесі Українки, 26</a
+                    href="https://www.instagram.com"
+                    class="footer-nets__icons-back"
                   >
+                    <svg class="icons-white" width="20" height="20">
+                      <use
+                        href="./images/sprite.svg#icon-instagram-g"
+                      ></use></svg
+                  ></a>
                 </li>
-                <li>
-                  <a href="mailto:info@devstudio.com" class="footer__link"
-                    >info@devstudio.com</a
-                  >
+                <li class="footer-nets__item">
+                  <a href="https://twitter.com" class="footer-nets__icons-back"
+                    ><svg class="icons-white" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter-g"></use></svg
+                  ></a>
                 </li>
-                <li>
-                  <a href="tel:+380961111111" class="footer__link"
-                    >"+38 096 111 11 11"</a
-                  >
+                <li class="footer-nets__item">
+                  <a
+                    href="https://www.facebook.com/"
+                    class="footer-nets__icons-back"
+                    ><svg class="icons-white" width="20" height="20">
+                      <use
+                        href="./images/sprite.svg#icon-facebook-g"
+                      ></use></svg
+                  ></a>
+                </li>
+                <li class="footer-nets__item">
+                  <a
+                    href="https://linkedin.com/"
+                    class="footer-nets__icons-back"
+                    ><svg class="icons-white" width="20" height="20">
+                      <use
+                        href="./images/sprite.svg#icon-linkedin-g"
+                      ></use></svg
+                  ></a>
                 </li>
               </ul>
-            </address>
+            </div>
           </div>
-          <div class="footer-nets">
-            <p class="footer-nets__title">Приєднуйтесь</p>
-            <ul class="footer-nets__icons list">
-              <li class="footer-nets__item">
-                <a
-                  href="https://www.instagram.com"
-                  class="footer-nets__icons-back"
-                >
-                  <svg class="icons-white" width="20" height="20">
-                    <use href="./images/sprite.svg#icon-instagram-g"></use></svg
-                ></a>
-              </li>
-              <li class="footer-nets__item">
-                <a href="https://twitter.com" class="footer-nets__icons-back"
-                  ><svg class="icons-white" width="20" height="20">
-                    <use href="./images/sprite.svg#icon-twitter-g"></use></svg
-                ></a>
-              </li>
-              <li class="footer-nets__item">
-                <a
-                  href="https://www.facebook.com/"
-                  class="footer-nets__icons-back"
-                  ><svg class="icons-white" width="20" height="20">
-                    <use href="./images/sprite.svg#icon-facebook-g"></use></svg
-                ></a>
-              </li>
-              <li class="footer-nets__item">
-                <a href="https://linkedin.com/" class="footer-nets__icons-back"
-                  ><svg class="icons-white" width="20" height="20">
-                    <use href="./images/sprite.svg#icon-linkedin-g"></use></svg
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
           <form class="sub">
             <div>
               <p class="sub__title">Підпишіться на розсилку</p>
@@ -642,7 +651,7 @@
       </div>
     </div>
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button type="button" class="menu-toggle js-close-menu">
+      <button class="menu-toggle js-close-menu">
         <svg width="40" height="40">
           <use href="./images/sprite.svg#icon-mobile-menu-cross"></use>
         </svg>
@@ -704,5 +713,6 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="js/mobile-menu.js"></script>
+    
   </body>
 </html>

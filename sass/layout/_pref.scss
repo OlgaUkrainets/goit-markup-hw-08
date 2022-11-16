@@ -3,10 +3,13 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    width: 450px;
+    min-width: 280px;
+    max-width: 450px;
     height: 120px;
     background-color: rgba(245, 244, 250, 1);
     border-radius: 4px;
+
+  
 
     @media screen and (min-width: 768px) {
       width: 354px;
@@ -33,6 +36,7 @@
       display: flex;
       flex-wrap: nowrap;
       align-items: baseline;
+      gap: 0px;
   
   & &__box + &__box {
     margin-left: 30px;
@@ -41,7 +45,7 @@
 }
 
   .pref__box {
-    width: 450px;
+    max-width: 450px;
 
     @media screen and (min-width: 768px) {
       width: 354px;
@@ -69,8 +73,6 @@
     }
   }
 
-
-  
   .pref-section {
     line-height: 1.71;
     padding-bottom: 60px;
