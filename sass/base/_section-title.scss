@@ -6,13 +6,14 @@
     text-align: center;
     color: $titleTextColor;
     margin-top: 0;
+
+    @media screen and (min-width: 1200px)
+    {
+      margin-bottom: 50px;
+      font-size: 36px;
+      line-height: 1.167;
+      color: $titleTextColor;
+     }
   }
 
-  .section-title {
-    margin-bottom: 50px;
-    font-size: 36px;
-    line-height: 1.167;
-    text-align: center;
-    color: $titleTextColor;
-    margin-top: 0;
-  }
+ 

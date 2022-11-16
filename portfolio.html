@@ -25,6 +25,17 @@
             >Web<span class="dark-logo">Studio</span></a
           >
 
+          <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="40" height="40">
+            <use href="./images/sprite.svg#icon-menu-mobile"></use>
+          </svg>
+        </button>
+
+
           <ul class="header__nav list">
             <li class="header__item">
               <a href="./index.html" class="link">Студія</a>
@@ -405,5 +416,67 @@
         </div>
       </div>
     </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="40" height="40">
+          <use href="./images/sprite.svg#icon-mobile-menu-cross"></use>
+        </svg>
+      </button>
+      <ul class="menu-mobile__nav list">
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link link" href="">Студія</a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link link" href="./portfolio.html" >Портфоліо</a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link link" href="">Контакти</a>
+        </li>
+      </ul>
+
+      <ul class="menu-mobile__contact list">
+        <li>
+          <a class="menu-mobile__phone link" href="tel:+380961111111"
+            >+38&nbsp;096&nbsp;111&nbsp;11&nbsp;11</a
+          >
+        </li>
+        <li>
+          <a class="menu-mobile__email link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="menu-mobile__net list">
+        <li>
+          <a class="menu-mobile__net-item link" href="https://www.instagram.com"
+            >Instagram</a
+          ><span class="menu-mobile__line">|</span>
+        </li>
+        <li>
+          <a class="menu-mobile__net-item link" href="https://twitter.com"
+            >Twitter</a
+          ><span class="menu-mobile__line">|</span>
+        </li>
+        <li>
+          <a class="menu-mobile__net-item link" href="https://www.facebook.com"
+            >Facebook</a
+          ><span class="menu-mobile__line">|</span>
+        </li>
+        <li>
+          <a class="menu-mobile__net-item link" href="https://linkedin.com"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
