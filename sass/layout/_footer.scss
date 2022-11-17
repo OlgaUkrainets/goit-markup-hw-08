@@ -15,6 +15,13 @@
     gap: 70px;
     
   }}
+
+  .footer__item {
+    margin-bottom: 8px;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0px;
+    }
+  }
   
   .bottom-logo {
     margin-bottom: 20px;

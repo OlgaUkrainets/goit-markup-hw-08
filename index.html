@@ -171,19 +171,30 @@
           <ul class="team list">
             <li class="team__unit">
               <div class="team__box">
-                <img
-                  srcset="
-                    ./images/product-designer.jpg         270w,
-                    ./images/product-designer-tablet1.jpg 354w,
-                    ./images/product-designer-mobile1.jpg 450w,
-                    ./images/product-designer2.jpg        540w,
-                    ./images/product-designer-tablet2.jpg 708w,
-                    ./images/product-designer-mobile2.jpg 900w
-                  "
-                  src="./images/product-designer-mobile1.jpg"
-                  alt="Дизайнер продукту"
-                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/product-designer.jpg  1x,
+                      ./images/product-designer2.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/product-designer-tablet1.jpg 1x,
+                      ./images/product-designer-tablet2.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <img
+                    srcset="
+                      ./images/product-designer-mobile1.jpg 1x,
+                      ./images/product-designer-mobile2.jpg 2x
+                    "
+                    alt="Розробник"
+                  />
+                </picture>
 
                 <div class="team__descr">
                   <h3 class="team__item">Ігор Дем'яненко</h3>
@@ -235,19 +246,30 @@
             </li>
             <li class="team__unit">
               <div class="team__box">
-                <img
-                  srcset="
-                    ./images/frontend-developer.jpg         270w,
-                    ./images/frontend-developer-tablet1.jpg 354w,
-                    ./images/frontend-developer-mobile1.jpg 450w,
-                    ./images/frontend-developer2.jpg        540w,
-                    ./images/frontend-developer-tablet2.jpg 708w,
-                    ./images/frontend-developer-mobile2.jpg 900w
-                  "
-                  src="./images/frontend-developer-mobile1.jpg"
-                  alt="Розробник"
-                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/frontend-developer.jpg  1x,
+                      ./images/frontend-developer2.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/frontend-developer-tablet1.jpg 1x,
+                      ./images/frontend-developer-tablet2.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <img
+                    srcset="
+                      ./images/frontend-developer-mobile1.jpg 1x,
+                      ./images/frontend-developer-mobile2.jpg 2x
+                    "
+                    alt="Розробник"
+                  />
+                </picture>
 
                 <div class="team__descr">
                   <h3 class="team__item">Ольга Рєпіна</h3>
@@ -300,19 +322,31 @@
 
             <li class="team__unit">
               <div class="team__box">
-                <img
-                  srcset="
-                    ./images/marketing.jpg         270w,
-                    ./images/marketing-tablet1.jpg 354w,
-                    ./images/marketing-mobile1.jpg 450w,
-                    ./images/marketing2.jpg        540w,
-                    ./images/marketing-tablet2.jpg 708w,
-                    ./images/marketing-mobile2.jpg 900w
-                  "
-                  src="./images/marketing-mobile1.jpg"
-                  alt="Маркетинг"
-                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/marketing.jpg  1x,
+                      ./images/marketing2.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/marketing-tablet1.jpg 1x,
+                      ./images/marketing-tablet2.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <img
+                    srcset="
+                      ./images/marketing-mobile1.jpg 1x,
+                      ./images/marketing-mobile2.jpg 2x
+                    "
+                    alt="Розробник"
+                  />
+                </picture>
+
                 <div class="team__descr">
                   <h3 class="team__item">Микола Тарасов</h3>
                   <p lang="en" class="team__text">Marketing</p>
@@ -364,19 +398,31 @@
 
             <li class="team__unit">
               <div class="team__box">
-                <img
-                  srcset="
-                    ./images/ui-designer.jpg         270w,
-                    ./images/ui-designer-tablet1.jpg 354w,
-                    ./images/ui-designer-mobile1.jpg 450w,
-                    ./images/ui-designer2.jpg        540w,
-                    ./images/ui-designer-tablet2.jpg 708w,
-                    ./images/ui-designer-mobile2.jpg 900w
-                  "
-                  src="./images/ui-designer.jpg"
-                  alt="Графічний дизайнер"
-                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/ui-designer.jpg  1x,
+                      ./images/ui-designer2.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ui-designer-tablet1.jpg 1x,
+                      ./images/ui-designer-tablet2.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <img
+                    srcset="
+                      ./images/ui-designer-mobile1.jpg 1x,
+                      ./images/ui-designer-mobile2.jpg 2x
+                    "
+                    alt="Розробник"
+                  />
+                </picture>
+
                 <div class="team__descr">
                   <h3 class="team__item">Михайло Єрмаков</h3>
                   <p lang="en" class="team__text">UI Designer</p>
@@ -485,7 +531,7 @@
               </div>
               <address>
                 <ul class="footer__contact list">
-                  <li>
+                  <li class="footer__item">
                     <a
                       href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                       target="_blank"
@@ -494,14 +540,14 @@
                       >м. Київ, пр-т Лесі Українки, 26</a
                     >
                   </li>
-                  <li>
+                  <li class="footer__item">
                     <a href="mailto:info@devstudio.com" class="footer__link"
                       >info@devstudio.com</a
                     >
                   </li>
-                  <li>
+                  <li class="footer__item">
                     <a href="tel:+380961111111" class="footer__link"
-                      >"+38 096 111 11 11"</a
+                      >+38&nbsp;096&nbsp;111&nbsp;11&nbsp;11</a
                     >
                   </li>
                 </ul>
@@ -661,7 +707,9 @@
           <a class="menu-mobile__link link" href="">Студія</a>
         </li>
         <li class="menu-mobile__item">
-          <a class="menu-mobile__link link" href="./portfolio.html" >Портфоліо</a>
+          <a class="menu-mobile__link link" href="./portfolio.html"
+            >Портфоліо</a
+          >
         </li>
         <li class="menu-mobile__item">
           <a class="menu-mobile__link link" href="">Контакти</a>
@@ -713,6 +761,5 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="js/mobile-menu.js"></script>
-    
   </body>
 </html>
